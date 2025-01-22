@@ -1,0 +1,74 @@
+{
+    "videos": [
+      {
+        "category": "Huerta",
+        "articles": [
+          {
+            "title": "Huerto para Principiantes: 10 Consejos más importantes para COMENZAR desde cero",
+            "video": "https://www.youtube.com/watch?v=uniGzuqH3nE",
+            "description": "No hace falta ser un huertero experimentado o tener mucho espacio al aire libre para cultivar tus hortalizas.",
+            "id": "1"
+          },
+          {
+            "title": "Cómo Sembrar y Trasplantar TOMATES, Aumenta la Cosecha",
+            "video": "https://www.youtube.com/watch?v=gm4YxJBhMbw",
+            "description": "Cómo sembrar y trasplantar tomates",
+            "id": "2"
+          },
+          {
+            "title": "CEBOLLA Sin Semilla ReCultivo en la Huerta",
+            "video": "https://www.youtube.com/watch?v=5cJ6uZpTG1g",
+            "description": "Cultivo de Cebolla sin Semilla, una forma de incorporar nuevas variedades de cebolla en tu huerta",
+            "id": "3"
+          }
+        ]
+      },
+      {
+        "category": "Suculentas",
+        "articles": [
+          {
+            "title": "14 Mejores Suculentas de Interior",
+            "video": "https://www.youtube.com/watch?v=ftq4XVM3DQY",
+            "description": "Las suculentas son las plantas perfectas para los jardineros olvidadizos, el cuidado de las plantas crasas es fácil y está al alcance de cualquiera.",
+            "id": "4"
+          },
+          {
+            "title": "Cómo REPRODUCIR con éxito la suculenta ÁRBOL DE JADE: 3 métodos",
+            "video": "https://www.youtube.com/watch?v=ZBJGjYrQZ7c",
+            "description": "En este vídeo os cuento cómo reproduzco yo la suculenta árbol de jade.",
+            "id": "5"
+          },
+          {
+            "title": "Como Propagar Suculentas por hoja paso a paso",
+            "video": "https://www.youtube.com/watch?v=LwvAWAgRULc&t=160s",
+            "description": "En este video les comparto como propago mis suculentas, es super fácil, sólo tienen que tener sus hojitas en un lugar fresco y seco que les de resolana y ponerles agua.",
+            "id": "6"
+          }
+        ]
+      },
+      {
+        "category": "Cuidados Generales",
+        "articles": [
+          {
+            "title": "Cómo cuidar de CUALQUIER planta! 3 sencillos pasos",
+            "video": "https://www.youtube.com/watch?v=LwvAWAgRULc&t=160s",
+            "description": "Espero que estos consejos te sean útiles para llenar tu casa con plantas.",
+            "id": "7"
+          },
+          {
+            "title": "CUIDAR y REPRODUCIR plantas en macetas [ERRORES y CONSEJOS]",
+            "video": "https://www.youtube.com/watch?v=LwvAWAgRULc",
+            "description": "Para mantener las plantas en buen estado, las plantas necesitan cuidados adecuados, como el riego y la exposición a luz adecuada.",
+            "id": "8"
+          },
+          {
+            "title": "TIPOS de MACETAS para tus PLANTAS. ¿Cuál es mejor: La MACETA de BARRO o una de PLÁSTICO?",
+            "video": "https://www.youtube.com/watch?v=cSuLV7THqLg",
+            "description": "Identifica y elimina plagas comunes en tus plantas.",
+            "id": "9"
+          }
+        ]
+      }
+    ]
+  }
+  

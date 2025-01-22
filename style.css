@@ -1,0 +1,237 @@
+/* cambio universal */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@1,700&family=Arizonia&family=Cedarville+Cursive&display=swap');
+
+/* Declatacion de variables*/
+
+
+
+/* Declaracion de variables */
+
+:root{
+    --letra-titulo: "Arizonia", serif;
+    --letra-subtitulo: "Arimo", serif;
+
+    --color-primario: #99da9d;
+    --color-secundario:#3ceb82;
+    --color-terciario:#27c265;
+}
+
+.body{
+    width: 100%;
+    height: 100%;
+    padding: 0% 0% 0% 0%;  
+    background-image: url('./assets/fondo_horizontal.png' );
+    background-size: 100% 100%; /* Ajusta la imagen al 100% de la altura y el ancho de la ventana */
+    background-position: center;
+    background-repeat: no-repeat; /* para que la imagen se ajuste a la pantalla*/
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+    gap:5%;
+    padding: 0.25% 0.25%;
+    background-color: var(--color-primario);
+      
+}
+
+.inicio, .nuevo_video{
+    border: none;
+    height: 20%;
+    width: 15%;
+    border-radius: 10%;
+    background-color: var(--color-secundario);
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 100%; /* Tamaño del texto */
+    font-weight: bold; /* Cambia font-style a font-weight para negrita */
+    margin-top: 1%;
+    margin-bottom: 1%; /* Espacio entre los elementos */
+    font-style: normal;
+    padding: 1%;
+
+}
+
+.inicio:hover{
+    background-color: var(--color-terciario);
+    height: 65%;
+    width: 25%;
+    color: white;
+
+}
+
+.nuevo_video:hover{
+    background-color: var(--color-terciario);
+    height: 65%;
+    width: 25%;
+    color: white;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-terciario);
+    padding: 0.05%;
+    
+}
+
+.introduccion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: stretch;
+
+}
+
+.cabecera{
+    width: 100%;
+    height: 100%;
+    mix-blend-mode: multiply;
+    padding: 2.5%;
+
+}
+
+.video_presentacion{
+    border: none;
+    padding: 10%;
+    width:100%;
+    height:28%;
+    border-radius: 20%;
+}
+
+.introduccion{
+    padding: 0.5%;
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 110%; /* Tamaño del texto */
+    font-weight: normal; /* Cambia font-style a font-weight para negrita */
+}
+
+.main{
+    padding: 5%;
+    gap: 5.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.categorias {
+    gap: 1%;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: space-between;
+
+
+}
+
+.subtitulo{
+    margin-top: -7.5%;
+    padding: 2.5%;
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 250%; /* Tamaño del texto */
+    font-weight: bold; /* Cambia font-style a font-weight para negrita */
+
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1%;
+    gap:3%;
+}
+
+.titulo_video, .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 110%; /* Tamaño del texto */
+
+}
+
+.video_plantas{
+    border: none;
+    padding: 10%;
+    width:100%;
+    height:28%;
+    
+
+}
+
+.botones_gral{
+    
+    display: flex; /* Configura el contenedor como Flexbox */
+    flex: row; /* Permite que los elementos se ajusten si no caben en una fila */
+    justify-content: center;
+    align-items: center;
+    gap:150%
+   
+    
+}
+
+.boton_borrar, .boton_editar{
+    border: none;
+    height: 35%;
+    width: 150%;
+    border-radius: 10%;
+    background-color: var(--color-secundario);
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 100%; /* Tamaño del texto */
+    font-weight: bold; /* Cambia font-style a font-weight para negrita */
+    margin-top: 1%;
+    margin-bottom: 1%; /* Espacio entre los elementos */
+    font-style: normal;
+    padding: 1%;
+
+}
+
+.footer{
+    width: 100%; /* Asegura que ocupe todo el ancho */
+    height:max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:-0.5%;
+    font-size: 100%; /* Tamaño del texto */
+    font-weight: bold; /* Cambia font-style a font-weight para negrita */
+    position: absolute;
+    background-color:var(--color-terciario);
+    padding: 1%;
+    
+        
+    
+}
+
+
+@media (max-width:450px){
+    .body{
+        width: 100%;
+        height: 100%;
+        padding: 0% 0% 0% 0%;  
+        background-image: url('./assets/imagen_vertical.png' );
+        background-size: 100% 100%; /* Ajusta la imagen al 100% de la altura y el ancho de la ventana */
+        background-position: center;
+        background-repeat: no-repeat; /* para que la imagen se ajuste a la pantalla*/
+    }
+
+}
