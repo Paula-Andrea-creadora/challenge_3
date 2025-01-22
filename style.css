@@ -139,6 +139,49 @@
 
 }
 
+.categorias_2{
+    gap: 1%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-content: center;
+    padding:1%;
+ 
+}
+
+.titulo_formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center; /* Centra el texto horizontalmente */
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 250%; /* Tamaño del texto */
+    font-weight: bold; /* Cambia font-style a font-weight para negrita */
+
+}
+
+
+.subtitulo_2, .titulo_video_2, .video_plantas_2, .description_2{
+    border: none;
+    font-family: var(--letra-subtitulo); /* Usa la variable o un valor de respaldo */
+    font-size: 100%; /* Tamaño del texto */
+    font-weight: bold; /* Cambia font-style a font-weight para negrita */
+    margin-top: 1%;
+    margin-bottom: 1%; /* Espacio entre los elementos */
+    font-style: normal;
+    padding: 1%;
+    width:100%;
+    height:28%;
+    background-color: rgba(255, 255, 255, 0.75); /* Blanco semi-transparente */
+}
+
+
+
+
+
+
+
 .subtitulo{
     margin-top: -7.5%;
     padding: 2.5%;
@@ -156,6 +199,17 @@
     padding:1%;
     gap:3%;
 }
+
+.article_2{display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1%;
+    gap:3%;
+
+}
+
+
+
 
 .titulo_video, .description{
     display: flex;
@@ -184,10 +238,24 @@
     align-items: center;
     gap:150%
    
-    
 }
 
-.boton_borrar, .boton_editar{
+.botones_gral_2{
+    display: flex; /* Configura el contenedor como Flexbox */
+    flex: row; /* Permite que los elementos se ajusten si no caben en una fila */
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    gap:550%
+
+}
+
+
+
+
+
+
+.boton_borrar, .boton_editar, .boton_limpiar, .boton_guardar{
     border: none;
     height: 35%;
     width: 150%;
@@ -235,3 +303,13 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+ 
